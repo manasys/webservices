@@ -1,0 +1,41 @@
+<jxb:bindings
+		xmlns:jxb="http://java.sun.com/xml/ns/jaxb"
+		xmlns:xs="http://www.w3.org/2001/XMLSchema"
+		version="1.0">
+	<jxb:bindings
+		schemaLocation="Fare_MasterPricerCalendar_10_3_1A.xsd"
+		node="/xs:schema/xs:element/xs:complexType/xs:sequence/xs:element[5]/xs:complexType/xs:sequence/xs:element[1]/xs:complexType/xs:sequence/xs:element/xs:complexType">
+		<jxb:class name="NestedFormOfPaymentDetails"/>
+	</jxb:bindings>
+	<jxb:bindings
+		schemaLocation="Fare_MasterPricerCalendarReply_10_3_1A.xsd"
+		node="/xs:schema/xs:element/xs:complexType/xs:sequence/xs:element[11]/xs:complexType/xs:sequence/xs:element[8]/xs:complexType/xs:sequence/xs:element[6]/xs:complexType/xs:sequence/xs:element[2]/xs:complexType/xs:sequence/xs:element[3]/xs:complexType/xs:sequence/xs:element[3]/xs:complexType">
+		<jxb:class name="NestedFareDetails"/>
+	</jxb:bindings>
+	
+	<jxb:bindings
+		schemaLocation="Fare_MasterPricerCalendarReply_10_3_1A.xsd"
+		node="/xs:schema/xs:element/xs:complexType/xs:sequence/xs:element[7]/xs:complexType/xs:sequence/xs:element[2]/xs:complexType/xs:sequence/xs:element[2]/xs:complexType">
+		<jxb:class name="NestedFeeInformation"/>
+	</jxb:bindings>
+	
+	<jxb:bindings
+		schemaLocation="Fare_MasterPricerTravelBoardSearch_10_3_1A.xsd"
+		node="/xs:schema/xs:element/xs:complexType/xs:sequence/xs:element[5]/xs:complexType/xs:sequence/xs:element[1]/xs:complexType/xs:sequence/xs:element/xs:complexType">
+		<jxb:class name="NestedFormOfPaymentDetails"/>
+	</jxb:bindings>
+	
+	<jxb:bindings
+		schemaLocation="Fare_MasterPricerTravelBoardSearchReply_10_3_1A.xsd"
+		node="/xs:schema/xs:element/xs:complexType/xs:sequence/xs:element[11]/xs:complexType/xs:sequence/xs:element[8]/xs:complexType/xs:sequence/xs:element[6]/xs:complexType/xs:sequence/xs:element[2]/xs:complexType/xs:sequence/xs:element[3]/xs:complexType/xs:sequence/xs:element[3]/xs:complexType">
+		<jxb:class name="NestedFareDetails"/>
+	</jxb:bindings>
+	
+	<jxb:bindings
+		schemaLocation="Fare_MasterPricerTravelBoardSearchReply_10_3_1A.xsd"
+		node="/xs:schema/xs:element/xs:complexType/xs:sequence/xs:element[7]/xs:complexType/xs:sequence/xs:element[2]/xs:complexType/xs:sequence/xs:element[2]/xs:complexType">
+		<jxb:class name="NestedFeeInformation"/>
+	</jxb:bindings>
+</jxb:bindings>
+
+
